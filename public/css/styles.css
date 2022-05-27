@@ -1,0 +1,58 @@
+body{
+    padding: 20% 25%;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #f875f0, #ef5dcd, #e346ab, #d42e8b, #c3106c);
+    
+}
+h3{
+    font-size: 1.5rem;
+    padding: 3% 7%;
+    font-family: "montserrat-Bold";
+}
+
+p{
+    font-size: 0.7rem;
+    font-family: "montserrat-dark";
+    padding: 3%;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+
+.calculator{
+    background-color: white;
+    width: 50%;
+    border-radius: 12px;
+}
+
+.height-weight{
+    font-family: ubuntu;
+    margin-right: 150px;
+    padding: 3%;
+}
+
+.height-weight:focus {
+    border-bottom: 2px solid;
+    transition: 0.5s;
+}
+
+
+.cal-btn{
+    margin: 0% 3% 3% 3%;
+    width: 35%;
+    border-radius: 10%;
+    background-image: linear-gradient(to right bottom, #f875f0, #ef5dcd, #e346ab, #d42e8b, #c3106c);
+}
+
+#result{
+
+    font-size: 1.2rem;
+}
+
+input.cal-btn{
+    margin-top: 20px;
+}
